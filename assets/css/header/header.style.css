@@ -1,0 +1,17 @@
+@import url(nav.style.css);
+
+header {
+  height: calc(100% / 5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header > section {
+  text-align: center;
+}
+
+header > section > img {
+  max-width: 40%;
+}

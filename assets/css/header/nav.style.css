@@ -1,0 +1,15 @@
+nav img {
+  height: 2rem;
+  width: auto;
+}
+
+nav {
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  padding: 0.5rem;
+  background-color: var(--color-sec);
+  border-radius: 1rem;
+  display: flex;
+  gap: 0.2rem;
+}

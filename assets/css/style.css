@@ -1,0 +1,40 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Mono&display=swap");
+
+/* Styles Sheets */
+@import url(header/header.style.css);
+@import url(main/main.style.css);
+@import url(footer/footer.style.css);
+
+:root {
+  --font: "Open Sans", sans-serif;
+  --color-bg: #140101;
+  --color-sec: #d1b48c;
+}
+
+html,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font);
+  color: var(--color-bg);
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-snap-type: y;
+}
+
+body {
+  background-color: var(--color-bg);
+  height: 500svh;
+}
+
+a,
+a:active,
+a:visited,
+a:hover {
+  text-decoration: none;
+  color: none;
+}

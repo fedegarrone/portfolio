@@ -1,0 +1,14 @@
+@import url(presentation.style.css);
+
+article {
+  height: calc(100% / 3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+article > section {
+  background-color: var(--color-sec);
+  padding: 2rem;
+  border-radius: 2rem;
+}

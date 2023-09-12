@@ -1,0 +1,5 @@
+@import url(article.style.css);
+
+main {
+  height: calc(3 * 100% / 5);
+}
