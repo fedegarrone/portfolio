@@ -1,6 +1,7 @@
 @import url(presentation.style.css);
 
 article {
+  scroll-snap-align: start;
   height: calc(100% / 3);
   display: flex;
   justify-content: center;

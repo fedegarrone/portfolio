@@ -1,6 +1,7 @@
 @import url(nav.style.css);
 
 header {
+  scroll-snap-align: start;
   height: calc(100% / 5);
   display: flex;
   flex-direction: column;
