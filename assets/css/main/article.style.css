@@ -1,4 +1,5 @@
 @import url(presentation.style.css);
+@import url(estudios.style.css);
 
 article {
   scroll-snap-align: start;
